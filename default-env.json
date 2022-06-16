@@ -1,0 +1,71 @@
+{
+	"VCAP_SERVICES": {
+		"destination": [
+			{
+				"label": "destination",
+				"provider": null,
+				"plan": "lite",
+				"name": "notification-test-content-destination-service",
+				"tags": [
+					"destination",
+					"conn",
+					"connsvc"
+				],
+				"instance_guid": "00849954-cdd4-4da2-9c94-a77f1eb7e779",
+				"instance_name": "notification-test-content-destination-service",
+				"binding_guid": "ae9d65c6-e542-4abd-95c7-94d70c0f52d9",
+				"binding_name": null,
+           			"credentials": {
+                        "clientid": "sb-cloneac0a40cba0aa4e499f90352f85f53378!b94666|destination-xsappname!b404",
+                        "clientsecret": "5d4141e6-6357-4b69-876a-7ff68a18d5b2$0NCu3mWsyFWlStXkZHWTUONIP1g2AnQ44eGYWPIbGKY=",
+                        "url": "https://0b801854trial.authentication.eu10.hana.ondemand.com",
+                        "identityzone": "0b801854trial",
+                        "tenantid": "302fa7f8-56ff-44e0-8a8b-b46a605039f5",
+                        "tenantmode": "dedicated",
+                        "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyRDXTvOhQ6W0VOk7gxt+\nPD1MAlOAqPknpebTqq65C1+yTPOPNyW2jCsKgKy2pCa+cHhqFzPIXtWbGlQQUYPh\nwUs+9XPrgkzdUpgUiWBm/rTOHuOLc4m3ht4CgafD32515toMcOgNMuefLGS03w3/\n991gzZduMpGerLG+c5dnwktgAL/+ajYqHqQGFNi1KZ04Yi52xAoA22OQbik31AhX\nkiKUUdlVVaLPUdpO8OKwQXQXFTJIT05QtZLxKzCYMsAlx5hTxWEm5DPrZRfeJpTH\nxdB5+t5DpIQiX1H0uZrsUe/T8dFp/uF9oBZ/hS5TlWSnBeQL7eI7WjjcdF8yF1ho\n6QIDAQAB\n-----END PUBLIC KEY-----",
+                        "xsappname": "cloneac0a40cba0aa4e499f90352f85f53378!b94666|destination-xsappname!b404",
+                        "uaadomain": "authentication.eu10.hana.ondemand.com",
+                        "credential-type": "binding-secret",
+                        "instanceid": "ac0a40cb-a0aa-4e49-9f90-352f85f53378",
+                        "uri": "https://destination-configuration.cfapps.eu10.hana.ondemand.com"    
+                    },
+				"syslog_drain_url": null,
+				"volume_mounts": []
+			}
+		],
+		"xsuaa": [
+			{
+				"label": "xsuaa",
+				"provider": null,
+				"plan": "application",
+				"name": "notification-test-content-xsuaa-service",
+				"tags": [
+					"xsuaa"
+				],
+				"instance_guid": "abc0c759-4eee-4767-a09f-226e0d20df59",
+				"instance_name": "notification-test-content-xsuaa-service",
+				"binding_guid": "5d93c1b7-9940-4676-aeb0-6f055dc94b5a",
+				"binding_name": null,
+				"credentials": {
+                    "clientid": "sb-managed_fiori_app!t94666",
+                    "clientsecret": "51os4E4yYGXts712Ly1Md2m1Al4=",
+                    "url": "https://0b801854trial.authentication.eu10.hana.ondemand.com",
+                    "identityzone": "0b801854trial",
+                    "identityzoneid": "302fa7f8-56ff-44e0-8a8b-b46a605039f5",
+                    "tenantid": "302fa7f8-56ff-44e0-8a8b-b46a605039f5",
+                    "tenantmode": "dedicated",
+                    "sburl": "https://internal-xsuaa.authentication.eu10.hana.ondemand.com",
+                    "apiurl": "https://api.authentication.eu10.hana.ondemand.com",
+                    "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyRDXTvOhQ6W0VOk7gxt+\nPD1MAlOAqPknpebTqq65C1+yTPOPNyW2jCsKgKy2pCa+cHhqFzPIXtWbGlQQUYPh\nwUs+9XPrgkzdUpgUiWBm/rTOHuOLc4m3ht4CgafD32515toMcOgNMuefLGS03w3/\n991gzZduMpGerLG+c5dnwktgAL/+ajYqHqQGFNi1KZ04Yi52xAoA22OQbik31AhX\nkiKUUdlVVaLPUdpO8OKwQXQXFTJIT05QtZLxKzCYMsAlx5hTxWEm5DPrZRfeJpTH\nxdB5+t5DpIQiX1H0uZrsUe/T8dFp/uF9oBZ/hS5TlWSnBeQL7eI7WjjcdF8yF1ho\n6QIDAQAB\n-----END PUBLIC KEY-----",
+                    "xsappname": "managed_fiori_app!t94666",
+                    "subaccountid": "302fa7f8-56ff-44e0-8a8b-b46a605039f5",
+                    "uaadomain": "authentication.eu10.hana.ondemand.com",
+                    "zoneid": "302fa7f8-56ff-44e0-8a8b-b46a605039f5",
+                    "credential-type": "instance-secret"
+                },
+				"syslog_drain_url": null,
+				"volume_mounts": []
+			}
+		]
+	}
+}			
